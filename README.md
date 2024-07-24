@@ -6,22 +6,25 @@ It is an extension for VS code, which can go to file with file basename or selec
 
 ## Extension Settings
 
-Open your [keybindings.json](https://code.visualstudio.com/docs/getstarted/keybindings#_advanced-customization) and add this keybinding:
+Open your [keybindings.json](https://code.visualstudio.com/docs/getstarted/keybindings#_advanced-customization) and add this keybinding after command "workbench.action.quickOpen":
 
 ```json
 {
-    "key": "cmd+p",
+    "key": "ctrl+p",
     "command": "goToFileWithSelectionW77.fileBasename",
     "when": "editorIsOpen"
 },
 {
-    "key": "cmd+p",
+    "key": "ctrl+p",
     "command": "goToFileWithSelectionW77.selectedText",
     "when": "editorTextFocus && editorHasSelection && !editorHasMultipleSelections"
 },
 ```
 
-## Commands
+![Git Blame screeshot 1](images/screenshot1.png)
 
-goToFileWithSelectionW77.fileBasename: Go to File with File Basename
-goToFileWithSelectionW77.selectedText: Go to File with Selected Text
+## Commands
+| name | description |
+| - | - |
+goToFileWithSelectionW77.fileBasename | Go to File with File Basename
+goToFileWithSelectionW77.selectedText | Go to File with Selected Text
