@@ -21,8 +21,6 @@ Open your [keybindings.json](https://code.visualstudio.com/docs/getstarted/keybi
 },
 ```
 
-![Git Blame screeshot 1](images/screenshot1.png)
-
 ## Commands
 | name | description |
 | - | - |

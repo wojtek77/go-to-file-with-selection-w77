@@ -3,7 +3,7 @@
   "displayName": "Go to File with Selection W77",
   "description": "It is an extension for VS code, which can go to file with file basename or selected text. Just like it is in Netbeans.",
   "publisher": "W77",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.73.0"
   },
